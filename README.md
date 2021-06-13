@@ -4,7 +4,7 @@
 
 # [Docker Container for MLDonkey][hub]
 
-This is a Docker image based on osixia/light-baseimage for running  MLDonkey 3.1.5.
+This is a Docker image based on osixia/light-baseimage for running  MLDonkey 3.1.6.
 
 MLDonkey is an open source, multi-protocol, peer-to-peer file sharing application that runs as a back-end server application on many platforms. It can be controlled through a user interface provided by one of many separate front-ends, including a Web interface, telnet interface and over a dozen native client programs. [Wikipedia][MLDonkey_wikipedia]
 
@@ -101,4 +101,5 @@ By default only eDonkey is enabled. To enable the other networks go to `Options-
 
 
 ## Versions
++ **V0.2** Updated to to osixia/light-baseimage 1.3.3 and MLDonkey 3.1.6 , delete at boot "*.ini.tmp" files to ensure proper Core start
 + **V0.1** Initial Release 3.1.5

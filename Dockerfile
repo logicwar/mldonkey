@@ -1,4 +1,4 @@
-FROM osixia/light-baseimage:1.1.1
+FROM osixia/light-baseimage:1.3.3
 
 #########################################
 ##             SET LABELS              ##
