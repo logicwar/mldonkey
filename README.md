@@ -13,12 +13,12 @@ MLDonkey is free software, released under the terms of the GNU General Public Li
 ## Usage
 
 ```
-docker create --name=mldonkey \ 
+docker create --name=mldonkey --restart=always \
               -v <path for config files>:/var/lib/mldonkey:rw \
               -v <path for temporary files>:/mnt/mldonkey_tmp:rw \
               -v <path for completed downloaded files>:/mnt/mldonkey_completed:rw \
-              -e PGID=<gid>
               -e PUID=<uid> \
+              -e PGID=<gid> \
               -e TZ=<timezone> \
               -p 4000:4000 \
               -p 4001:4001 \
